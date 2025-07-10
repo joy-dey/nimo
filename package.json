@@ -1,0 +1,25 @@
+{
+  "name": "nimo",
+  "version": "0.0.1",
+  "description": "Nimo is a lightweight, embeddable web component that adds a floating chat icon to any website. When clicked, it opens a sleek chat dialog for real-time communication. Designed for easy integration, Nimo supports custom socket URLs, enabling instant messaging via WebSocket or Socket.IO connections.",
+  "author": {
+    "name": "Joy Dey",
+    "email": "joy.dey@outlook.com",
+    "url": "https://github.com/joy-dey"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.35.2",
+    "svelte-check": "^4.2.2",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
